@@ -1,7 +1,7 @@
 ---
 title: gdb.attach()
 date: 2024-04-09 07:30:00 +0900
-categories: [Etc, Settings]
+categories: [Misc, Settings]
 tags: [gdb.attach()]
 math: true
 mermaid: true

@@ -1,7 +1,7 @@
 ---
 title: pwnable.kr settings
 date: 2024-04-29 13:00:00 +0900
-categories: [Etc, Settings]
+categories: [Misc, Settings]
 tags: [settings]
 math: true
 mermaid: true

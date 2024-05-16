@@ -1,7 +1,7 @@
 ---
 title: Format String Bug
 date: 2024-04-14 06:30:00 +0900
-categories: [Pwnable, Pwn Theory]
+categories: [0x1. Pwnable, 0x0. Pwn Theory]
 tags: [Pwnable, FSB]
 math: true
 mermaid: true

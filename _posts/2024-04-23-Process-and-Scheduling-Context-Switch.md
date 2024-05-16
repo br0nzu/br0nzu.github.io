@@ -1,7 +1,7 @@
 ---
 title: 2. Process and Scheduling - Context Switch
 date: 2024-04-23 10:00:00 +0900
-categories: [Computer Science, Operating System]
+categories: [0x0. Computer Science, 0x1. Operating System]
 tags: [OS, Process, Context Switch]
 math: true
 mermaid: true

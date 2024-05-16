@@ -1,7 +1,7 @@
 ---
 title: Linux Shell
 date: 2024-05-15 12:00:00 +0900
-categories: [Computer Science, CS Theory]
+categories: [0x0. Computer Science, 0x0. CS Theory]
 tags: [linux, shell]
 math: true
 mermaid: true

@@ -1,7 +1,7 @@
 ---
-title: 4. 조건문
+title: NOVICE LOW 4. 조건문
 date: 2024-02-26 10:00:00 +0900
-categories: [CODE TREE, NOVICE LOW]
+categories: [0x7. Problem Solving, 0x0. CODE TREE]
 tags: [Programming, CodeTree, NOVICE LOW]
 math: true
 mermaid: true

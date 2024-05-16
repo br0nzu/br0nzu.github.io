@@ -1,7 +1,7 @@
 ---
 title: Use After Free
 date: 2024-04-27 06:00:00 +0900
-categories: [Pwnable, Pwn Theory]
+categories: [0x1. Pwnable, 0x0. Pwn Theory]
 tags: [Pwnable, UAF]
 math: true
 mermaid: true

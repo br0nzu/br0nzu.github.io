@@ -1,7 +1,7 @@
 ---
-title: 6. 다중 반복문
+title: NOVICE LOW 6. 다중 반복문
 date: 2024-04-03 18:45:00 +0900
-categories: [CODE TREE, NOVICE LOW]
+categories: [0x7. Problem Solving, 0x0. CODE TREE]
 tags: [Programming, CodeTree, NOVICE LOW]
 math: true
 mermaid: true

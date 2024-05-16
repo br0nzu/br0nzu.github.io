@@ -1,7 +1,7 @@
 ---
 title: NOVICE LOW Start
 date: 2024-02-24 20:38:00 +0900
-categories: [CODE TREE, NOVICE LOW]
+categories: [0x7. Problem Solving, 0x0. CODE TREE]
 tags: [Programming, CodeTree, NOVICE LOW]
 math: true
 mermaid: true

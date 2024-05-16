@@ -1,7 +1,7 @@
 ---
 title: Stack Canary
 date: 2024-03-15 18:00:00 +0900
-categories: [Pwnable, Pwn Theory]
+categories: [0x1. Pwnable, 0x0. Pwn Theory]
 tags: [Pwnable, Stack Canary]
 math: true
 mermaid: true

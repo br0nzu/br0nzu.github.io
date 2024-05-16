@@ -1,7 +1,7 @@
 ---
 title: 2. Process and Scheduling - CPU Scheduling
 date: 2024-04-24 03:50:00 +0900
-categories: [Computer Science, Operating System]
+categories: [0x0. Computer Science, 0x1. Operating System]
 tags: [OS, Process, CPU Scheduling]
 math: true
 mermaid: true

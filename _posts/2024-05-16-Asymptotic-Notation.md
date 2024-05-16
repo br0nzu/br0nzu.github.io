@@ -17,4 +17,4 @@ mermaid: true
 * **Ω(Big Omega) 표기법**: 알고리즘 성능이 최선인 경우
 * **Θ(Big Theta) 표기법**
     * 알고리즘이 처리해야 하는 수행 시간의 상한과 하한을 동시에 나타냄
-    * `Θ(f(n)) = O(f(n)) ∩ Ω(f(n))`
+    * $\theta(f(n)) = O(f(n)) \cap \omega(f(n))$

@@ -15,14 +15,12 @@ mermaid: true
 ## 케르크호프스의 원리(Kerckhoffs's Principle)
 케르크호프스의 원리는 암호 시스템의 안전성을 보장하기 위해 따라야 할 중요한 원칙 중 하나이다. 케르크호프스의 원리는 다음과 같다.
 
-```text
-The system must be practically, if not mathematically, indecipherable
-It should not require secrecy, and it should not be a problem if it falls into enemy hands
-It must be possible to communicate and remember the key without using written notes, and correspondents must be able to change or modify it at will
-It must be applicable to telegraph communications
-It must be portable, and should not require several persons to handle or operate
-Lastly, given the circumstances in which it is to be used, the system must be easy to use and should not be stressful to use or require its users to know and comply with a long list of rules.
-```
+1. The system must be practically, if not mathematically, indecipherable
+2. It should not require secrecy, and it should not be a problem if it falls into enemy hands
+3. It must be possible to communicate and remember the key without using written notes, and correspondents must be able to change or modify it at will
+4. It must be applicable to telegraph communications
+5. It must be portable, and should not require several persons to handle or operate
+6. Lastly, given the circumstances in which it is to be used, the system must be easy to use and should not be stressful to use or require its users to know and comply with a long list of rules.
 
 위 내용 중에서 케르크호프스는 2번 항목을 중요시 했다. 즉, 암호 알고리즘의 비밀은 유지되기 어렵기 때문에 비밀키를 잘 보호 해야한다는 **비밀키의 중요성**을 강조했다.
 

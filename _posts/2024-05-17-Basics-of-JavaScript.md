@@ -1,7 +1,7 @@
 ---
 title: Basics of JavaScript
 date: 2024-05-17 21:00:00 +0900
-categories: [0x7. Development, 한 입 크기로 잘라먹는 리액트]
+categories: [0x6. Development, 한 입 크기로 잘라먹는 리액트]
 tags: [Dev, Front, JS]
 math: true
 mermaid: true

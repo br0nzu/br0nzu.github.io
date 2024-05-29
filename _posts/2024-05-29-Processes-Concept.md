@@ -1,6 +1,6 @@
 ---
 title: Processes Concept
-date: 2024-05-29 06:30:00 +0900
+date: 2024-05-29 20:00:00 +0900
 categories: [0x0. Computer Science, 0x1. Operating System]
 tags: [OS, Processes, Process Scheduling]
 math: true

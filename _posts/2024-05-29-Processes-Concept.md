@@ -2,7 +2,7 @@
 title: Processes Concept
 date: 2024-05-29 20:00:00 +0900
 categories: [0x0. Computer Science, 0x1. Operating System]
-tags: [OS, Processes, Process Scheduling]
+tags: [OS, Processes, Process Scheduling, Context Switch]
 math: true
 mermaid: true
 ---
@@ -63,6 +63,15 @@ mermaid: true
 * **Job Queue**: 프로세스가 시스템에 들어오면 Job Queue에 있음
 * **Ready Queue**: 메인 메모리 안에 있으며, 실행을 대기 중인 프로세스의 집합
 * **Device Queue**: I/O장치를 기다리고 있는 프로세스의 집합
+
+## 문맥 교환(Context Switch)
+프로세스에서 **문맥(Context)**은 마지막에 수행한 명령어 위치이다. 프로세스의 문맥은 PCB에 표시된다.
+
+**문맥 교환(Context Switch)**은 CPU가 다른 프로세스로 전환할 때, 시스템은 이전 프로세스의 상태를 저장하고 새 프로세스에 대한 저장된 상태를 불러오는 것이다. 
+
+![Context Switch](/assets/img/240529/Context Switch.png)
+
+문맥 교환이 진행될 동안 시스템은 아무런 유용한 일을 하지 못한다.
 
 ## Ref
 [1] Operating System Concepts(Silberschatz, Galvin and Gagne)

@@ -1,13 +1,13 @@
 ---
-title: Processes Concept
+title: Process Concept
 date: 2024-05-29 20:00:00 +0900
 categories: [0x0. Computer Science, 0x1. Operating System]
-tags: [OS, Processes, Process Scheduling, Context Switch]
+tags: [OS, Process, Process Scheduling, Context Switch]
 math: true
 mermaid: true
 ---
-## 프로세스(Processes)
-**프로세스(Processes)**는 **실행중인 프로그램**이다. 디스크에 저장된 파일이 메모리에 적재될 때 프로세스가 된다.
+## 프로세스(Process)
+**프로세스(Process)**는 **실행중인 프로그램**이다. 디스크에 저장된 파일이 메모리에 적재될 때 프로세스가 된다.
 
 ### Layout of a Process in Memory
 메모리 상에서 프로세스는 다음과 같다.

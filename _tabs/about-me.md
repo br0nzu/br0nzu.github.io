@@ -13,7 +13,7 @@ order: 4
 * 2020 ~ [Yeungnam University](https://www.yu.ac.kr/main/index.do)
 
 ## 🏢Education
-* 2023.9 ~ 2024.2 - KITRI WhiteHat School 1st
+* 2023.09.01 ~ 2024.03.22 **KITRI WhiteHat School 1st**
 
 ## 🏆Awards
 <details>

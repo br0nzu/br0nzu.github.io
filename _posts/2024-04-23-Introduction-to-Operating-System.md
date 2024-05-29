@@ -1,5 +1,5 @@
 ---
-title: 1. Introduction to Operating System
+title: Introduction to Operating System
 date: 2024-04-23 05:40:00 +0900
 categories: [0x0. Computer Science, 0x1. Operating System]
 tags: [OS, Bootstrap, Interrupt]

@@ -52,7 +52,7 @@ DOM과 CSSOM을 합쳐서 만든 것이 `Render Tree`기 때문에, `Render Tree
 
 ![Update](/assets/img/240527/Update.png)
 
-**화면의 업데이트는 JavaScript가 DOM을 수정하면 발생한다.** DOM이 수정되면 Critical Rendering Path의 전체 단계를 다시 진행한다. 여기서 Layout과 Painting과정이 오래 걸린다. 그렇기 때문에 Layout을 다시 하는 것을 **Reflow**라고 하고, Painting을 다시 하는 것을 **Repaint**라 한다. 위 사진처럼 3000번의 수정이 있다면 랜더링 과정이 매우 악화되고 심하면 브라우저에서 응답없음 페이지가 나타난다.
+**화면의 업데이트는 JavaScript가 DOM을 수정하면 발생한다.** DOM이 수정되면 Critical Rendering Path의 전체 단계를 다시 진행한다. 여기서 Layout과 Painting과정이 오래 걸린다. 그렇기 때문에 Layout을 다시 하는 것을 **Reflow**라고 하고, Painting을 다시 하는 것을 **Repaint**라 한다. 위 사진처럼 3000번의 수정이 있다면 렌더링 과정이 매우 악화되고 심하면 브라우저에서 응답없음 페이지가 나타난다.
 
 ![React Update](/assets/img/240527/React Update.png)
 

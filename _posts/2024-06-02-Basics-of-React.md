@@ -1,6 +1,6 @@
 ---
 title: Basics of React.js
-date: 2024-06-01 22:00:00 +0900
+date: 2024-06-02 00:00:00 +0900
 categories: [0x6. Development, 한 입 크기로 잘라먹는 리액트]
 tags: [Dev, Front, React.js]
 math: true
@@ -133,7 +133,7 @@ export default Counter;
 ## useRef
 **`useRef`**는 새로운 Reference 객체를 생성하는 기능이다. `useRef`와 `useState`의 차이점은 다음과 같다.
 
-![](/assets/img/240601/useRef useState.png)
+![](/assets/img/240602/useRef useState.png)
 
 `useRef` 주로 다음과 같은 경우에 사용된다.
 
@@ -152,5 +152,73 @@ React Hook과 관련된 주의사항은 다음과 같다.
 
 Hook은 보통 hook 파일에 따로 저장해서 import 한다.
 
+## 라이프사이클
+라이프사이클은 생명주기이다. 리액트에서 라이프사이클은 총 세 단계로 나뉜다.
+
+![Lifecycle](/assets/img/240602/Lifecycle.png)
+
+* **Mount**: 컴포넌트가 탄생하는 순간으로, 화면에 처음 렌더링 되는 순간
+* **Update**: 컴포넌트가 다시 렌더링 되는 순간
+* **UnMount**: 컴포넌트가 사라지는 순간으로 렌더링에서 제외 되는 순간
+
+## useEffect
+**`useEffect`**는 리액트 컴포넌트의 사이드 이펙트[^footnote]를 제어하는 Hook이다. `useEffect`는 두 개의 매개변수를 받는다. 첫 번째 매개변수는 수행할 작업을 정의하는 함수를 사용한다. 두 번째 매개변수는 의존성 배열[^fn-nth-2]로, 이 배열에 포함된 값이 변경될 때만 첫 번째 매개변수로 전달된 함수가 실행된다.
+
+**클린업 함수(정리 함수)**는 `useEffect` 내에서 반환되는 함수로, 주로 컴포넌트가 언마운트되기 전에 정리 작업을 수행하는 데 사용된다. 이는 주로 타이머를 제거하거나, 구독을 취소하거나, 기타 리소스를 정리하는 데 유용하게 사용된다.
+
+다음은 `useEffect`를 사용한 예시이다.
+
+```react
+import React, { useState, useEffect } from 'react';
+
+function ExampleComponent() {
+  const [count, setCount] = useState(0);
+  const [data, setData] = useState(null);
+
+  // 마운트 - 데이터 가져오기
+  useEffect(() => {
+    console.log('Component did mount');
+
+    // 타임아웃 데이터 가져오기
+    const fetchData = async () => {
+      const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+      const result = await response.json();
+      setData(result);
+    };
+
+    fetchData();
+
+    // 언마운트 - 타이머 정리
+    return () => {
+      console.log('Component will unmount');
+    };
+  }, []);
+
+  // 업데이트 - 로그 출력
+  useEffect(() => {
+    console.log('Component did update');
+  }, [count]);
+
+  return (
+    <div>
+      <h1>useEffect Example</h1>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <div>
+        <h2>Fetched Data:</h2>
+        {data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}
+      </div>
+    </div>
+  );
+}
+
+export default ExampleComponent;
+```
+
 ## Ref
 [1] [한입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%EB%A6%AC%EC%95%A1%ED%8A%B8)
+
+## Footnote
+[^footnote]: **사이드 이펙트**: 컴포넌트 동작에 따라 파생되는 여러 효과
+
+[^fn-nth-2]: **의존성 배열**: dependency array라고 하며, 보통 deps로 많이 불린다.

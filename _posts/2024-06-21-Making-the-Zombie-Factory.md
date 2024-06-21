@@ -1,6 +1,6 @@
 ---
 title: Solidity - Making the Zombie Factory
-date: 2024-06-21 15:00:00 +0900
+date: 2024-06-21 22:00:00 +0900
 categories: [0x2. Web3, 0x1. Crypto Zombie]
 tags: [Solidity, Cryptozombie]
 math: true

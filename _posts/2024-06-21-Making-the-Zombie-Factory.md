@@ -167,7 +167,7 @@ YourContract.IntegersAdded(function(error, result) {
 ## Web3.js
 Solidity로 contract를 작성한 후, 이와 상호작용할 수 있는 애플리케이션을 만들기 위해 JavaScript 코드가 필요하다. 이더리움에서는 **Web3.js**라는 JavaScript 라이브러리를 제공한다. Web3.js를 사용하면 JavaScript 애플리케이션에서 contract와 상호작용하고, 이더리움 네트워크에 연결하며, 트랜잭션을 전송하고 데이터를 조회할 수 있다.
 
-## Crypto Zombie Level 1 Clear
+## Crypto Zombie Making the Zombie Factory Clear
 ![Zombie](/assets/img/Making the Zombie Factory/Zombie.png)
 
 ## Ref

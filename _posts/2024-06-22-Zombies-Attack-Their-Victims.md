@@ -1,7 +1,7 @@
 ---
 title: Solidity - Zombies Attack Their Victims
 date: 2024-06-22 16:50:00 +0900
-categories: [0x2. Web3, 0x1. Crypto Zombie]
+categories: [0x2. Web3, 0x0. Crypto Zombie]
 tags: [Solidity, Cryptozombie]
 math: true
 mermaid: true

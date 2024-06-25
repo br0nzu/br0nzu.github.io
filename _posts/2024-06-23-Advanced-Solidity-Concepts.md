@@ -260,5 +260,7 @@ function getEvens() pure external returns(uint[] memory) {
 
 ![Clear2](/assets/img/Advanced Solidity Concepts/Clear2.png)
 
+[Advanced Solidity Concepts Clear](https://share.cryptozombies.io/en/lesson/3/share/br0nzu?id=Y3p8NjIyMjI4)
+
 ## Ref
 1. [Solidity: Beginner to Intermediate Smart Contracts](https://cryptozombies.io/en/solidity)

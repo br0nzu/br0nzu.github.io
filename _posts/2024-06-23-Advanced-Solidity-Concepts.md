@@ -250,15 +250,15 @@ function getEvens() pure external returns(uint[] memory) {
 }
 ```
 
+## Misc
+* **Security**: Solidity 코드에서 보안성 검사할 때 유심히 봐야할 부분은 `public`과 `external` 함수가 악용되는지 안되는지 유심히 보면 된다.
+* `calldata`: memory와 유사하지만, external 함수에서만 사용 가능
+
 ## Advanced Solidity Concepts Clear
 
 ![Clear1](/assets/img/Advanced Solidity Concepts/Clear1.png)
 
 ![Clear2](/assets/img/Advanced Solidity Concepts/Clear2.png)
-
-## Misc
-* **Security**: Solidity 코드에서 보안성 검사할 때 유심히 봐야할 부분은 `public`과 `external` 함수가 악용되는지 안되는지 유심히 보면 된다.
-* `calldata`: memory와 유사하지만, external 함수에서만 사용 가능
 
 ## Ref
 1. [Solidity: Beginner to Intermediate Smart Contracts](https://cryptozombies.io/en/solidity)

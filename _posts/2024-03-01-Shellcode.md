@@ -6,7 +6,7 @@ tags: [Pwnable, Shellcode]
 math: true
 mermaid: true
 ---
-**쉘코드(Shellcode)**는 익스플로잇을 위해 제작된 어셈블리 코드 조각이다.
+**쉘코드(Shellcode)**는 쉘(Shell)을 띄우기 위한 어셈블리어 코드들의 집합이다.
 
 쉘코드는 **orw 쉘코드**, **execve 쉘코드**가 있다.
 
@@ -28,6 +28,8 @@ write(1, buf, 0x30);
 |**open** | 0x02 | filename  | flags       | mode       |
 |**read** | 0x00 | fd        | buf         | size       |
 |**write**| 0x01 | fd        | buf         | size       |
+
+* arg3(rcx), arg4(r8), arg5(r9)
 
 <details>
 <summary>flags</summary>
@@ -72,6 +74,8 @@ syscall           ; write(fd, buf, 0x30)
 |**open** | 0x05 | filename  | flags       | mode       |
 |**read** | 0x03 | fd        | buf         | size       |
 |**write**| 0x04 | fd        | buf         | size       |
+
+* arg3(esi), arg4(edi)
 
 #### 구현
 ```s

@@ -73,14 +73,6 @@ mermaid: true
 
 **최적화 교체 알고리즘**은 장기간 사용하지 않을 페이지 교체하는 알고리즘이다. 모든 알고리즘 중 가장 낮은 페이지 폴트율을 유지할 수 있다.
 
-#### LRU(Least-Recently-Used) Page Replacement
-
-![LRU]()
-
-**LRU**는 가장 오랫동안 사용하지 않은 페이지를 교체하는 알고리즘이다.
-
-<추가 예정>
-
 ## Ref
 [1] Operating System Concepts(Silberschatz, Galvin and Gagne)
 

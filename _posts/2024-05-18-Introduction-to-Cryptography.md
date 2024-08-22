@@ -1,7 +1,7 @@
 ---
 title: Introduction to Cryptography
 date: 2024-05-18 16:00:00 +0900
-categories: [0x3. Crypto, 0x0. Crypto Theory]
+categories: [0x01. InfoSec, 0x01. Crypto]
 tags: [Crypto]
 math: true
 mermaid: true

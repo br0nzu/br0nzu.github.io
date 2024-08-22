@@ -1,7 +1,7 @@
 ---
 title: Out of bounds
 date: 2024-04-14 06:00:00 +0900
-categories: [0x1. Pwnable, 0x0. Pwn Theory]
+categories: [0x01. InfoSec, 0x00. Pwnable]
 tags: [Pwnable, OOB]
 math: true
 mermaid: true

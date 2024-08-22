@@ -1,7 +1,7 @@
 ---
 title: Operating System Structures
 date: 2024-05-27 06:00:00 +0900
-categories: [0x0. Computer Science, 0x1. Operating System]
+categories: [0x00. Computer Science, 0x01. Operating System]
 tags: [OS, System Call]
 math: true
 mermaid: true

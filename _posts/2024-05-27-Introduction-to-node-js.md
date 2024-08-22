@@ -1,7 +1,7 @@
 ---
 title: Introduction to Node.js
 date: 2024-05-27 01:00:00 +0900
-categories: [0x6. Development, 한 입 크기로 잘라먹는 리액트]
+categories: [0x04. Development, 한 입 크기로 잘라먹는 리액트]
 tags: [Dev, Front, Node.js]
 math: true
 mermaid: true

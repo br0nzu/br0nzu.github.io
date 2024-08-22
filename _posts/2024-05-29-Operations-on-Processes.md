@@ -1,7 +1,7 @@
 ---
 title: Operations on Process
 date: 2024-05-29 23:50:00 +0900
-categories: [0x0. Computer Science, 0x1. Operating System]
+categories: [0x00. Computer Science, 0x01. Operating System]
 tags: [OS, Process, System Call]
 math: true
 mermaid: true

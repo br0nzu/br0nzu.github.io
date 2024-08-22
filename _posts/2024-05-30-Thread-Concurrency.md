@@ -1,7 +1,7 @@
 ---
 title: Thread 
 date: 2024-05-30 01:00:00 +0900
-categories: [0x0. Computer Science, 0x1. Operating System]
+categories: [0x00. Computer Science, 0x01. Operating System]
 tags: [OS, Thread]
 math: true
 mermaid: true

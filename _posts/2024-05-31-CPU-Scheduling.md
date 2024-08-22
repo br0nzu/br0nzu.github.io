@@ -1,7 +1,7 @@
 ---
 title: CPU Scheduling
 date: 2024-05-31 04:45:00 +0900
-categories: [0x0. Computer Science, 0x1. Operating System]
+categories: [0x00. Computer Science, 0x01. Operating System]
 tags: [OS, Thread, CPU Scheduling]
 math: true
 mermaid: true

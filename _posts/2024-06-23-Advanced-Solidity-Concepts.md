@@ -1,7 +1,7 @@
 ---
-title: Solidity - Advanced Solidity Concepts
+title: "[Cryptozombie] Solidity: Advanced Solidity Concepts"
 date: 2024-06-23 22:50:00 +0900
-categories: [0x2. Web3, 0x0. Crypto Zombie]
+categories: [0x01. InfoSec, 0x02. Web3]
 tags: [Solidity, Cryptozombie]
 math: true
 mermaid: true

@@ -1,7 +1,7 @@
 ---
 title: ASLR & NX(DEP)
 date: 2024-03-27 15:00:00 +0900
-categories: [0x1. Pwnable, 0x0. Pwn Theory]
+categories: [0x01. InfoSec, 0x00. Pwnable]
 tags: [Pwnable, ASLR, NX(DEP)]
 math: true
 mermaid: true

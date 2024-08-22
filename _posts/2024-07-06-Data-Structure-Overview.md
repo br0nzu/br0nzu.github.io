@@ -1,7 +1,7 @@
 ---
 title: Data Structure Overview
 date: 2024-07-06 03:30:00 +0900
-categories: [0x0. Computer Science, 0x3. Algorithm]
+categories: [0x00. Computer Science, 0x03. Algorithm]
 tags: [Algorithm, Data Structure]
 math: true
 mermaid: true

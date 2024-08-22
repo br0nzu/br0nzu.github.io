@@ -1,7 +1,7 @@
 ---
 title: Virtual Memory
 date: 2024-06-12 17:30:00 +0900
-categories: [0x0. Computer Science, 0x1. Operating System]
+categories: [0x00. Computer Science, 0x01. Operating System]
 tags: [OS, Virtual Memory, Page Fault]
 math: true
 mermaid: true

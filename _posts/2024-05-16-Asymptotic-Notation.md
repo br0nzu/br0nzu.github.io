@@ -1,7 +1,7 @@
 ---
 title: Asymptotic Notation
 date: 2024-05-16 17:45:00 +0900
-categories: [0x0. Computer Science, 0x3. Algorithm]
+categories: [0x00. Computer Science, 0x03. Algorithm]
 tags: [Algorithm, Asymptotic Notation]
 math: true
 mermaid: true

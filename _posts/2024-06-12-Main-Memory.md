@@ -1,7 +1,7 @@
 ---
 title: Main Memory
 date: 2024-06-12 11:40:00 +0900
-categories: [0x0. Computer Science, 0x1. Operating System]
+categories: [0x00. Computer Science, 0x01. Operating System]
 tags: [OS, Main Memory, Paging]
 math: true
 mermaid: true

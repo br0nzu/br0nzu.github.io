@@ -1,7 +1,7 @@
 ---
 title: Stack Buffer Overflow
 date: 2024-03-11 20:50:00 +0900
-categories: [0x1. Pwnable, 0x0. Pwn Theory]
+categories: [0x01. InfoSec, 0x00. Pwnable]
 tags: [Pwnable, Stack Buffer Overflow]
 math: true
 mermaid: true

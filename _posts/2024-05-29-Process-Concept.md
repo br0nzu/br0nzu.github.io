@@ -1,7 +1,7 @@
 ---
 title: Process Concept
 date: 2024-05-29 20:00:00 +0900
-categories: [0x0. Computer Science, 0x1. Operating System]
+categories: [0x00. Computer Science, 0x01. Operating System]
 tags: [OS, Process, Process Scheduling, Context Switch]
 math: true
 mermaid: true

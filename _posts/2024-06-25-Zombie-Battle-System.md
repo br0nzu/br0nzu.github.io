@@ -1,7 +1,7 @@
 ---
-title: Solidity - Zombie Battle System
+title: "[Cryptozombie] Solidity: Zombie Battle System"
 date: 2024-06-25 22:20:00 +0900
-categories: [0x2. Web3, 0x0. Crypto Zombie]
+categories: [0x01. InfoSec, 0x02. Web3]
 tags: [Solidity, Cryptozombie]
 math: true
 mermaid: true

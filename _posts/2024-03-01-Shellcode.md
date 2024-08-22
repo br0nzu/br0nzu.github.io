@@ -6,9 +6,7 @@ tags: [Pwnable, Shellcode]
 math: true
 mermaid: true
 ---
-**쉘코드(Shellcode)**는 쉘(Shell)을 띄우기 위한 어셈블리어 코드들의 집합이다.
-
-쉘코드는 **orw 쉘코드**, **execve 쉘코드**가 있다.
+**쉘코드(Shellcode)**는 **쉘(Shell)을 띄우기 위한 어셈블리어 코드들의 집합**이다. 쉘코드는 시스템 콜을 호출하는 것이 핵심이다. 쉘코드의 종류에는 **orw 쉘코드**, **execve 쉘코드**가 있다.
 
 ## ORW Shellcode
 orw 쉘코드는 파일을 **열고(open) 읽고(read) 출력(write)**하는 쉘코드이다.

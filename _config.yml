@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: br0nzu # the main title
 
-tagline: Br0nzu IT Blog # it will display as the sub-title
+tagline: Interested in Pwn # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   🐼 Welcome to br0nzu's Blog.

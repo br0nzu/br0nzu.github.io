@@ -1,7 +1,7 @@
 ---
 title: PLT & GOT
 date: 2024-03-27 19:00:00 +0900
-categories: [0x00. Computer Science, 0x00. CS Theory]
+categories: [0x00. Computer Science, 0x00. Theory]
 tags: [PLT, GOT]
 math: true
 mermaid: true

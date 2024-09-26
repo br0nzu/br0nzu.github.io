@@ -1,7 +1,7 @@
 ---
 title: Calling Convention x86
 date: 2024-03-01 15:00:00 +0900
-categories: [0x00. Computer Science, 0x00. CS Theory]
+categories: [0x00. Computer Science, 0x00. Theory]
 tags: [Calling Convention]
 math: true
 mermaid: true

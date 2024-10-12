@@ -29,7 +29,5 @@ FPO의 동작과정은 다음과 같다.
 
     ![main_ret](/assets/img/Frame Pointer Overwrite/main_ret.png)
 
-
-
 ## Ref
 [1] [Frame Pointer Overwrite(One-byte Overflow)](https://www.lazenca.net/display/TEC/05.Frame+Pointer+Overwrite)

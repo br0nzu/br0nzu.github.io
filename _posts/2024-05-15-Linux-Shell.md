@@ -1,5 +1,5 @@
 ---
-title: Linux Shell
+title: "[Linux] Shell"
 date: 2024-05-15 12:00:00 +0900
 categories: [0x00. Computer Science, 0x00. Theory]
 tags: [linux, shell]
@@ -7,7 +7,7 @@ math: true
 mermaid: true
 ---
 **리눅스 쉘(shell)**은 사용자 명령어 및 프로그램을 실행할 수 있는 공간이다.
-![shell](/assets/img/240515/shell.png)
+![shell](/assets/img/Linux Shell/shell.png)
 
 ## 쉘 종류
 쉘의 종류는 Bourne Shell과 C-type Shell이 있다.

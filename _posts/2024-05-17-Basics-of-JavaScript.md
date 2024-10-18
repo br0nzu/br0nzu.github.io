@@ -31,7 +31,7 @@ const var2 = 99;
 3. 예약어를 사용할 수 없다.(ex. `let`)
 
 ## 자료형(Type)
-![Data Type](/assets/img/240517/Data Type.png)
+![Data Type](/assets/img/Basics of JavaScript/Data Type.png)
 
 ### 원시 타입
 **원시 타입**이란 동시에 한 개의 값만 변수에 저장될 수 있는 자료형이다. 원시 타입에는 **Number, String, Boolean, Null, Undefined**가 있다.

@@ -14,21 +14,17 @@ order: 4
 ## 🏢Education
 * 2023.09.01 ~ 2024.03.22 **KITRI WhiteHat School 1st**
 
-## 🏆Awards
-<details>
-<summary>2023</summary>
-<div markdown="1">
-* 지식재산 문제해결학습(IP:PBL) 장려상 
-</div>
-</details>
-
 ## 🚩CTF Results
-<details>
-<summary>2023</summary>
-<div markdown="1">
-* The 27th Hacking Camp CTF 1st(Team: 어디에도)
-</div>
-</details>
+- 2024
+    - 특별상, AutoHack2024 (Team: 오똑핵)
+- 2023
+    - 1st, The 27th Hacking Camp (Team: 어디에도)
+
+## 🏆Awards
+- 2024
+    - 대상, MIDAS GROUP(전공형) (Team: @Xpert)
+- 2023
+    - 장려상, 지식재산 문제해결학습(IP:PBL) 
 
 # 📞Contact
 * KakaoTalk: dongpago2<br>

@@ -30,7 +30,6 @@ order: 4
 - 2025
     - Security One Forum CTF Author
 
-
 ## 📞Contact
 * KakaoTalk: dongpago2<br>
 * <a href="https://www.discord.com/users/992834301752262656">Discord: br0nzu</a><br>

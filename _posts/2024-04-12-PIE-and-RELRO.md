@@ -120,6 +120,11 @@ $ checksec ./frelro
 
 ### Hook Overwrite
 `malloc`, `free`, `realloc` 에는 각각에 대응되는 훅 변수가 존재하며 `libc.so`의 `bss`영역에 위치하여 덮어 쓰는 것이 가능하다. 또한, 훅을 실행할 때는 기존 함수에 전달한 인자를 같이 전달해 주기 때문에 `system`함수의 주소로 덮고 쉘을 실행시킬 수 있다.
+
+- `malloc` ↔ `__malloc_hook`
+- `free` ↔ `__free_hook`
+- `realloc` ↔ `__realloc_hook`
+
 > 훅은 힙 청크 할당(malloc)과 해제(free)가 다발적으로 일어나는 환경에서 성능에 악영향을 주기 때문에 보안과 성능 향상을 이유로 Glibc 2.34 버전부터 제거되었다.
 {: .prompt-info }
 

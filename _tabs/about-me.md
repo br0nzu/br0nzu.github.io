@@ -26,8 +26,13 @@ order: 4
 - 2023
     - 장려상, 지식재산 문제해결학습(IP:PBL) 
 
-# 📞Contact
+## 🏛️Contributions
+- 2025
+    - Security One Forum CTF Author
+
+
+## 📞Contact
 * KakaoTalk: dongpago2<br>
-* <a href="https://www.discord.com/users/992834301752262656">Discord: Br0nzu</a><br>
+* <a href="https://www.discord.com/users/992834301752262656">Discord: br0nzu</a><br>
 * <a href="https://www.instagram.com/dongpago2/">Instagram: dongpago2</a><br>
 * <a href="mailto:dongpago2@gmail.com">Mail: dongpago2@gmail.com</a>

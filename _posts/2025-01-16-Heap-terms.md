@@ -1,5 +1,5 @@
 ---
-title: "[Heap] glibc 2.23 정리"
+title: "[Heap] 용어 정리"
 date: 2025-01-16 09:40:00 +0900
 categories: [0x00. Computer Science, 0x00. Theory]
 tags: [heap]

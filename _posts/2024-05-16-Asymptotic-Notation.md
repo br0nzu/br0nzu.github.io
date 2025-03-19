@@ -16,11 +16,18 @@ mermaid: true
 
 점근 표기법은 다음과 같은 표기법이 있다.
 
-* **O(Big O) 표기법**: 알고리즘 성능이 최악인 경우
-* **Ω(Big Omega) 표기법**: 알고리즘 성능이 최선인 경우
-* **Θ(Big Theta) 표기법**
-    * 알고리즘이 처리해야 하는 수행 시간의 상한과 하한을 동시에 나타냄
-    * $\theta(f(n)) = O(f(n)) \cap \omega(f(n))$
+![function](/assets/img/Asymptotic Notation/function.png)
+
+- **O(Big O) 표기법**
+    - 알고리즘 성능이 최악인 경우
+    - 주어진 식을 값이 가장 큰 대표항만 남겨서 나타내는 방법법
+- **Ω(Big Omega) 표기법**: 알고리즘 성능이 최선인 경우
+- **Θ(Big Theta) 표기법**
+    - 알고리즘이 처리해야 하는 수행 시간의 상한과 하한을 동시에 나타냄
+    - $\theta(f(n)) = O(f(n)) \cap \omega(f(n))$
+
+## Ref
+[1] [[실전 알고리즘] 0x01강 - 기초 코드 작성 요령 I](https://blog.encrypted.gg/922)
 
 ## Footnote
 [^footnote]: **시간 복잡도**: 입력의 크기와 문제를 해결하는 데 걸리는 시간의 상관관계

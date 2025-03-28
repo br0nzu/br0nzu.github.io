@@ -8,8 +8,7 @@ category: 'Misc'
 draft: true 
 ---
 ## Coding
-### 입문
-- [Codeup](https://codeup.kr/): C언어, Python 입문하기 좋은 사이트 (기초 100제)
+- [Codeup](https://codeup.kr/): C언어, Python 입문하기 좋은 문제 풀이 사이트 (기초 100제)
 
 ## InfoSec
 - [Dreamhack](https://dreamhack.io/)

@@ -1,7 +1,7 @@
 ---
 title: Plan for the First Half of 2025
 published: 2025-03-27
-description: 'D-90 수련'
+description: '2025년 상반기 계획'
 image: '/Plan for the First Half of 2025/Plan for the First Half of 2025 cover.png'
 tags: [plan]
 category: 'Daily'
